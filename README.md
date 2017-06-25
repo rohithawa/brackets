@@ -22,13 +22,20 @@ Package - au.com.brackets
 - cobertura
 
 #How to build the application
+```
 mvn clean install
+```
 
 #How to run the cobertura code coverage
+```
 mvn cobertura:cobertura
+```
 
 #How to view the cobertura report
+
 Go to target/cobertura/index.html
 
 #How to run the application
+```
 java -jar  target/technicalassessment-app.jar
+```
